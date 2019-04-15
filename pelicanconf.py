@@ -22,12 +22,11 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/Abdur-RahmaanJ'),
+          ('linkedIn', 'https://linkedin.com/in/appinv'),)
 
 DEFAULT_PAGINATION = 5
 
@@ -67,3 +66,28 @@ CATEGORY_URL = 'category/{slug}'
 CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 TAG_URL = 'tag/{slug}'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
+
+'''
+git init
+git remote add origin https://github.com/Abdur-rahmaanJ/Abdur-rahmaanJ.github.io
+git add -A
+git commit -m "initial commit"
+git push --set-upstream origin master
+
+'''
+
+'''
+
+    :::python3
+    def do_twice(func):
+    def wrapper_do_twice(*args, **kwargs):
+        return func(*args, **kwargs).lower()
+    return wrapper_do_twice
+
+    @do_twice
+    def say_whee(some_text):
+        print(some_text)
+
+    x = 'Whee!'
+    say_whee(x)
+'''
