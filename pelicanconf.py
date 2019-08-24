@@ -33,7 +33,7 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-OUTPUT_PATH = '../output'
+OUTPUT_PATH = '../Abdur-rahmaanJ.github.io'
 
 THEME = 'theme'
 
@@ -45,7 +45,7 @@ JINJA_ENVIRONMENT = {
     'extensions': ['jinja2.ext.i18n'],
 }
 
-BOOTSTRAP_THEME = 'flatly'
+BOOTSTRAP_THEME = 'superhero'
 
 PYGMENTS_STYLE = 'monokai'
 
