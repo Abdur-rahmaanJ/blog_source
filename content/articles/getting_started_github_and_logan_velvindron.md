@@ -5,6 +5,7 @@ Category: blogging
 Tags: git, github
 Slug: getting-started-github-how-logan-helped
 
+![github wallpapercave]({static}/img/github_wall.jpg)
 
 Github is a hub for git repositories. It provides a cool interface with lots of social elements like issues, follows, discover and watch. Due to the huge number of projects hosted there, it is a place not to be missed in the Open Source world. This article is intended to be an overview of some features as well as the story of how i got started and **is not a complete guide**.
 
