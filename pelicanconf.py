@@ -26,7 +26,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (('github', 'https://github.com/Abdur-RahmaanJ'),
-          ('linkedIn', 'https://linkedin.com/in/appinv'),)
+          ('linkedIn', 'https://linkedin.com/in/appinv'),
+          ('twitter', 'https://twitter.com/osdotsystem'),
+          )
 
 DEFAULT_PAGINATION = 5
 
@@ -46,7 +48,8 @@ JINJA_ENVIRONMENT = {
 }
 
 BOOTSTRAP_THEME = 'superhero'
-
+CUSTOM_CSS = 'theme/css/custom.css'
+GOOGLEFONT = 'https://fonts.googleapis.com/css?family=Source+Sans+Pro'
 PYGMENTS_STYLE = 'monokai'
 
 #:::python3     
